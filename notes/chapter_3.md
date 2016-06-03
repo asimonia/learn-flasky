@@ -31,3 +31,14 @@ Hello stranger
 block tags and a base.html class can be defined to allow for extension
 
 
+Chapter 3: Templates with Flask-Bootstrap (3b)
+==============================================
+
+Bootstrap can be added without having to put the assets in the static folder.  Use the bootstrap extension.
+This is in the base template using {% extends "bootstrap/base.html" %}
+
+Many base template blocks are defined.  title, navbar, content in this example.
+
+Many blocks already contain content.  Use super() to add more content so they aren't overriden.
+
+
