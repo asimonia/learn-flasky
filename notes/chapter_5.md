@@ -43,5 +43,9 @@ User.query.filter_by(role=user_role).all()
 Role.query.filter_by(name='User').first()
 
 
+Chapter 5: Database use in the application (5b)
+===============================================
+
+
 
 
