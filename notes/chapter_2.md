@@ -14,3 +14,13 @@ The view function receives the request object, manipulates it and returns a resp
 The app will be running on local host in production mode.
 
 
+Chapter 2: Dynamic routes (2b)
+==============================
+
+Flask routes can be dynamic.  When entering the URL in the browser, you can add variables
+'/user/<name>'
+'/user/<name>/<int:age>'
+
+Pass the variable to the view function.  You can return variables in the response.
+
+
