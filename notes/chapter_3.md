@@ -42,3 +42,10 @@ Many base template blocks are defined.  title, navbar, content in this example.
 Many blocks already contain content.  Use super() to add more content so they aren't overriden.
 
 
+Chapter 3: Custom error pages (3c)
+==================================
+
+Error handlers are present to make attractive custom errors when there is a problem.
+@app.errorhandler(e) is invoked and an error status code can be returned.
+
+
