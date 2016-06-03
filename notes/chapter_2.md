@@ -24,3 +24,17 @@ Flask routes can be dynamic.  When entering the URL in the browser, you can add 
 Pass the variable to the view function.  You can return variables in the response.
 
 
+Chapter 2: Command line options with Flask-Script (2c)
+======================================================
+
+A benefit of Flask is that the applications can be extended.  You start with a minimal framework and
+extensions work like packages.  Just add on what you need.
+
+The development server has a ton of options, but you have to hardcode them in your script.
+This ext solves the problem of allowing you parse the config options at the command line.
+Flask-Script exports the Manager class and the main app is passed as an argument to the constructor.
+
+shell: start a shell session in the context of the application
+runserver: runs a server with many options
+
+
