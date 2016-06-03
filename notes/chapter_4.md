@@ -20,3 +20,13 @@ Use Bootstrap, if desired, to render forms easily
 {{ wtf.quick_form(form) }}
 
 
+Chapter 4: Redirects and user sessions (4b)
+===========================================
+
+Applications can remember things from one request to another by storing them in user sessions.
+
+Redirections can route you to the endpoint provided.  url_for() takes the view function as an argument and
+returns the URL endpoint.
+
+
+
