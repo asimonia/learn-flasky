@@ -49,3 +49,15 @@ Error handlers are present to make attractive custom errors when there is a prob
 @app.errorhandler(e) is invoked and an error status code can be returned.
 
 
+Chapter 3: Static files (3d)
+============================
+
+Most applications use images, javascript, and css to give the site styling.
+Using url_for() we can add a favicon.ico by passing static and the filename as args
+
+
+Chapter 3: Dates and times with Flask-Moment (3e)
+=================================================
+
+
+moment.js is a client side script that renders dates and times in the browser according to UTC (universal time).
