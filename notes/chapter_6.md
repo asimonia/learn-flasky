@@ -16,3 +16,6 @@ msg = Message(app.config['FLASKY_MAIL_SUBJECT_PREFIX'] + subject,
 
 Chapter 6: Asynchronous emails (6b)
 ===================================
+Move the email function to a background thread to avoid delays and make website more responsive.
+Best idea is to use Flask-Celery to handle asynchronous requests.
+
