@@ -11,3 +11,8 @@ itsdangerous: Cryptographically secure token generation and verification
 Passwords are cryptographically hashed when stored in the database
 Werkzeug's security module implements hashing
 
+
+Chapter 8: Authentication blueprint (8b)
+========================================
+
+Organize app by functionality.  All authorization functions go into /auth
