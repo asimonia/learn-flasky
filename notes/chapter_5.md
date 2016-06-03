@@ -55,3 +55,20 @@ To avoid having to constantly repeat these imports, the Flask-Script’s shell c
 To add objects to the import list the shell command needs to be registered with a make_context callback function.
 
 
+Chapter 5: Database migrations with Flask-Migrate (5d)
+======================================================
+A database migration framework is schema control.
+Flask-Migrate is a wrapper around Alembic that can be accessed via Flask-Script.
+
+Create a migration repo with a migrations folder, where scripts will be stored:
+python hello.py db init
+
+Create the script:
+python hello.py db migrate -m "initial migration"
+
+After reviewed:
+python hello.py db upgrade			apply changes
+python hello.py db downgrade		remove changes
+
+
+
