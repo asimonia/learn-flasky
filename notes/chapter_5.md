@@ -45,7 +45,13 @@ Role.query.filter_by(name='User').first()
 
 Chapter 5: Database use in the application (5b)
 ===============================================
+Use SQL-Alchemy in the business logic instead of using sessions
 
 
+Chapter 5: Shell context (5c)
+=============================
+To avoid having to constantly repeat these imports, the Flask-Script’s shell command can be configured to automatically import certain objects.
+
+To add objects to the import list the shell command needs to be registered with a make_context callback function.
 
 
