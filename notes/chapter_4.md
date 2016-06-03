@@ -29,4 +29,10 @@ Redirections can route you to the endpoint provided.  url_for() takes the view f
 returns the URL endpoint.
 
 
+Chapter 4: Message flashing (4c)
+================================
+
+Call flash() to collect messages to render between requests.  Use get_flashed_messages() in the template to render
+the flashed message.
+
 
