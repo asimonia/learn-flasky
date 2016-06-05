@@ -36,5 +36,27 @@ Chapter 8: User registration (8d)
 When new users want to become members of the application, they must register with it so that they are known and can log in. A link in the login page will send them to a registration page, where they can enter their email address, username, and password.
 
 
+Chapter 8: Account confirmation (8e)
+====================================
+To ensure the information is valid, the user needs to be able to be contacted through email.
+itsdangerous generates confirmation tokens.  The user can click on the email with the confirmation
+token to go from unconfirmed to confirmed.
 
+http:// www.example.com/auth/confirm/<id>
+To encrypt the id, so not any user can access, the id is replaced with the confirmation token.
+TimedJSONWebSignatureSerializer generates JSON Web Signatures (JWS) with a time expiration.
+SECRET_KEY is the encryption key argument.
+dumps() generate a cryptographic signature and then serializes the data plus the 
+signature as a convenient token string.
+loads() decodes the token.
+
+
+Sending confirmation emails
+
+
+The before_app_request handler will intercept a request when three conditions are true:
+1. A user is logged in (current_user.is_authenticated() must return True).
+2. The account for the user is not confirmed.
+3. The requested endpoint (accessible as request.endpoint) is outside of the au‐ thentication blueprint. Access to the authentication routes needs to be granted, as those are the routes that will enable the user to confirm the account or perform other account management functions.
+If the three conditions are met, then a redirect is issued to a new /auth/unconfirmed route that shows a page with information about account confirmation.
 
