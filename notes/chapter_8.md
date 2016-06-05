@@ -60,3 +60,7 @@ The before_app_request handler will intercept a request when three conditions ar
 3. The requested endpoint (accessible as request.endpoint) is outside of the au‐ thentication blueprint. Access to the authentication routes needs to be granted, as those are the routes that will enable the user to confirm the account or perform other account management functions.
 If the three conditions are met, then a redirect is issued to a new /auth/unconfirmed route that shows a page with information about account confirmation.
 
+Chapter 8: Password updates (8f)
+================================
+Create a new form security feature.
+
