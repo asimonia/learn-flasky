@@ -31,3 +31,10 @@ Protect routes for authenticated users only
 Add this decorator 
 @login_required
 
+Chapter 8: User registration (8d)
+=================================
+When new users want to become members of the application, they must register with it so that they are known and can log in. A link in the login page will send them to a registration page, where they can enter their email address, username, and password.
+
+
+
+
