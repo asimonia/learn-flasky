@@ -71,3 +71,4 @@ To avoid locking users out of the application when they forget their passwords, 
 Chapter 8: Email address changes (8h)
 =====================================
 
+Users can be given the option to change the registered email address, but before the new address is accepted it must be verified with a confirmation email.
