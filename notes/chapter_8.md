@@ -68,6 +68,6 @@ Chapter 8: Password resets (8g)
 ===============================
 To avoid locking users out of the application when they forget their passwords, a password reset option can be offered. To implement password resets in a secure way, it is necessary to use tokens similar to those used to confirm accounts. When a user requests a password reset, an email with a reset token is sent to the registered email address. The user then clicks the link in the email and, after the token is verified, a form is presented where a new password can be entered.
 
-
-
+Chapter 8: Email address changes (8h)
+=====================================
 
