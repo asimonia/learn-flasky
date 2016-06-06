@@ -16,3 +16,8 @@ EditProfileForm(Form)
 EditProfileAdminForm(Form)
 
 
+Chapter 10: User avatars (10c)
+==============================
+
+Gravatar generates avatars with email hashes.
+http://www.gravatar.com/avatar/d4c74594d841139328695756648b6bd6
