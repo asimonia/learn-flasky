@@ -47,3 +47,9 @@ Chapter 11: Rich text blog posts with Flask-PageDown (11e)
 • Bleach, an HTML sanitizer implemented in Python.
 
 These packages will upgrade the blog posts from plain text to markdown.
+
+
+Chapter 11: Rich text server side handling with Markdown and Bleach (11f)
+=========================================================================
+
+This is done to prevent CSRF
