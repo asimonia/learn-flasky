@@ -17,3 +17,12 @@ so filters such as order_by() can be used on it as well.
 The user.html template requires the <ul> HTML tree that renders a list of blog posts like the one in index.html. 
 Having to maintain two identical copies of a piece of HTML is not ideal, so for cases like this, 
 Jinja2’s include() directive is very useful.
+
+
+Chapter 11: Generate fake users and posts (11c)
+===============================================
+
+As the blog posts grow, there will be too many.  The solution is to paginate and render in chunks.
+
+A development dependency will not be used in production.  To test the blog, you can generate fake users/posts
+with forgerypy.  Static methods are set in the User and Post models.  Enter a shell session to add to the db.
