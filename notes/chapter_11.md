@@ -63,3 +63,7 @@ The blog post editor will live in a standalone page.
 At the top of the page, the current version of the post will be shown for reference, 
 followed by a Markdown editor where the source Markdown can be modified.
 
+Chapter 11: Blog post editor (11h)
+==================================
+
+Allow users to edit their own posts.
