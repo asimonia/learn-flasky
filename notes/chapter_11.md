@@ -35,3 +35,15 @@ Changes made to the home route to support pagination in the main folder
 Pagination is defined in SQLAlchemy
 
 A paginations footer is added with a macro and CSS
+
+
+Chapter 11: Rich text blog posts with Flask-PageDown (11e)
+==========================================================
+
+
+• PageDown, a client-side Markdown-to-HTML converter implemented in Java‐ Script.
+• Flask-PageDown, a PageDown wrapper for Flask that integrates PageDown with Flask-WTF forms.
+• Markdown,aserver-sideMarkdown-to-HTMLconverterimplementedinPython.
+• Bleach, an HTML sanitizer implemented in Python.
+
+These packages will upgrade the blog posts from plain text to markdown.
