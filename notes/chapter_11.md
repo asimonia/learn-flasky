@@ -53,3 +53,13 @@ Chapter 11: Rich text server side handling with Markdown and Bleach (11f)
 =========================================================================
 
 This is done to prevent CSRF
+
+
+Chapter 11: Permanent links to posts (11g)
+==========================================
+
+The last feature related to blog posts is a post editor that allows users to edit their own posts. 
+The blog post editor will live in a standalone page. 
+At the top of the page, the current version of the post will be shown for reference, 
+followed by a Markdown editor where the source Markdown can be modified.
+
