@@ -26,3 +26,12 @@ As the blog posts grow, there will be too many.  The solution is to paginate and
 
 A development dependency will not be used in production.  To test the blog, you can generate fake users/posts
 with forgerypy.  Static methods are set in the User and Post models.  Enter a shell session to add to the db.
+
+
+Chapter 11: Blog post pagination (11d)
+======================================
+
+Changes made to the home route to support pagination in the main folder
+Pagination is defined in SQLAlchemy
+
+A paginations footer is added with a macro and CSS
