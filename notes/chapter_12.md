@@ -21,3 +21,6 @@ Also show follower and followed counts.
 Chapter 12: Followed posts with a join (12c)
 ============================================
 
+
+Chapter 12: Show followed blog posts in home page (12d)
+=======================================================
