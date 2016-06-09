@@ -16,3 +16,8 @@ Chapter 12: Followers in the application (12b)
 
 Implements a Follower button if user viewing is not a follower, or a unfollow button if the user is a follower.
 Also show follower and followed counts.
+
+
+Chapter 12: Followed posts with a join (12c)
+============================================
+
